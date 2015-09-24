@@ -74,6 +74,9 @@ def sum(ns):
 
     # TODO: You must add code here.
 
+    for x in ns:
+        s += x
+
     return s
 
 def ith(xs, i):

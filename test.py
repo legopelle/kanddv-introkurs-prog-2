@@ -17,13 +17,17 @@ from optional import *
 # ==========  Tests for the functions in the mandatory.py module.  ==========
 # ===========================================================================
 
+print "List length"
+
 print length([])
 
 print length([1, 2, 3])
 
 # Use the # symbol to comment out tests you don't want to run.
 
-# print sum([])
+print "Sum function"
+
+print sum([])
 
 print sum(range(10))
 
