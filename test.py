@@ -59,6 +59,22 @@ print "Max"
 print max([-1, 2, -18])
 
 
+print "is odd"
+print is_odd(3)
+print is_odd(4)
+
+print "is even"
+print is_even(3)
+print is_even(4)
+
+print "print odd"
+print_odd([1, 2, 3, 4])
+
+print "Print even"
+print_even([1, 2, 3, 4])
+
+
+
 # ==========================================================================
 # ==========  Tests for the functions in the optional.py module.  ==========
 # ==========================================================================

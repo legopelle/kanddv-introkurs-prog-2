@@ -275,7 +275,8 @@ def is_odd(n):
     False
     '''
 
-    return True # You must change this!
+    return n%2 == 1
+
 
 def is_even(n):
     '''
@@ -297,9 +298,10 @@ def is_even(n):
     '''
 
     # TODO: You use should is_odd() as part of your solution.
-
-    return True # You must change this!
-
+    return not is_odd(n)
+    
+    
+    
 def print_odd(ns):
     '''
     Arguments:
@@ -319,7 +321,9 @@ def print_odd(ns):
     3
     '''
 
-    print "To be implemented" # TODO: You must change this.
+    for x in ns:
+        if is_odd(x):
+            print x
 
 
 def print_even(ns):
@@ -340,5 +344,7 @@ def print_even(ns):
     10
     '''
 
-    print "To be implemented" # TODO: You must change this.
+    for x in ns:
+        if is_even(x):
+            print x
 
