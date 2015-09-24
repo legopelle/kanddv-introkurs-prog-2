@@ -50,6 +50,9 @@ def length(xs):
     # TODO: You must add code here. You may not use the built-in
     # function len().
 
+    for x in xs:
+        n = n+1
+
     return n
 
 def sum(ns):
