@@ -46,6 +46,17 @@ print "Change element in list"
 print set_ith(l, 1, "buu")
 
 
+print "Take"
+print take(2, l)
+
+print "Print All"
+print_all(l)
+
+print "Double print"
+print_double([1, 2, 3, 4])
+
+print "Max"
+print max([-1, 2, -18])
 
 
 # ==========================================================================

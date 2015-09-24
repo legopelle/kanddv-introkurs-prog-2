@@ -171,7 +171,7 @@ def take(n, xs):
     [0, 1, 2, 3, 4]
     '''
 
-    return xs # You must change this! Use slice notation.
+    return xs[0:n] # You must change this! Use slice notation.
 
 
 # ===========================================
@@ -196,7 +196,9 @@ def print_all(xs):
     3
     '''
 
-    print "To be implemented" # You must change this!
+    for x in xs:
+        if x:
+            print x
 
 
 def print_double(ns):
@@ -217,7 +219,8 @@ def print_double(ns):
     6
     '''
 
-    print "To be implemented" # You must change this!
+    for x in ns:
+        print x*2
 
 
 def max(ns):
@@ -241,6 +244,9 @@ def max(ns):
 
     # NOTE: Your solution should use iteration (for).
 
+    for x in ns:
+        if x > max:
+            max = x
 
     return max
 
