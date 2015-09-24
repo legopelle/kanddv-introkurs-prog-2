@@ -107,7 +107,10 @@ def ith(xs, i):
     # TODO: You must add code here. Use square bracket notation to
     # get the value at index i in the list xs.
 
-    return -999 # You must change this!
+    return xs[i]
+    
+    
+
 
 def set_ith(xs, i, value):
     '''Arguments:
@@ -138,7 +141,7 @@ def set_ith(xs, i, value):
 
     # TODO: You must add code here. Use square bracket notation and
     # index to update the list xs.
-
+    xs[i] = value
 
     return xs
 

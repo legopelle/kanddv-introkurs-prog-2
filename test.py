@@ -35,6 +35,19 @@ print sum(range(10))
 # module.
 
 
+print "extract element from list"
+
+l = ["a", "b", "c"]
+print ith(l, 2)
+print ith(l, 0)
+
+print "Change element in list"
+
+print set_ith(l, 1, "buu")
+
+
+
+
 # ==========================================================================
 # ==========  Tests for the functions in the optional.py module.  ==========
 # ==========================================================================
